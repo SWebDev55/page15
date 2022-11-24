@@ -101,6 +101,7 @@ header .main-box .menu ul li a:hover{
         -webkit-line-clamp: 2; /* number of lines to show */
                 line-clamp: 2; 
         -webkit-box-orient: vertical;
+        padding: 0px !important;
     }
     .blog-2 .blog-post .col-span-3 .box .des p{
         font-size: 10px;
