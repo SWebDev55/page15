@@ -95,9 +95,21 @@ header .main-box .menu ul li a:hover{
     }
     .blog-2 .blog-post .col-span-3 .box .des h1{
         font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+                line-clamp: 2; 
+        -webkit-box-orient: vertical;
     }
     .blog-2 .blog-post .col-span-3 .box .des p{
         font-size: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+                line-clamp: 2; 
+        -webkit-box-orient: vertical;
     }
 
     footer .main-box{
